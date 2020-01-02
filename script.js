@@ -25,10 +25,6 @@ function generateHex() {
 	return hexColor;
 }
 
-color1.setAttribute("value", "#ff0000");
-color2.setAttribute("value", "#ffff00");
-css.textContent = "linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));";
-
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
